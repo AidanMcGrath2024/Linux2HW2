@@ -14,29 +14,66 @@ void question4() {
 	std::string line = ""; // initialize string, later to be used to extract csv line 
 	std::ifstream iFile; // creat ifstream object 
 
-	iFile.open("Q4data.csv"); //****** need to figure out how to actually open when configured***** // open file into iFile
+	iFile.open("Q4data.csv"); // open file into iFile
+	
+	std::vector<double>time; // initilize time vector
 	std::vector<double>xval; // initilize x vector
 	std::vector<double>yval; // initialize y vecter 
 
-	std::getline(iFile, line); // get first line (headers) of csv 
-	//std::cout << line << std::endl; 
+	std::string timeLabel, xLabel, yLabel; // initializing string variables for the headers
 
-	int cLocation = line.find(","); // find comma location 
-	std::string labelX = line.substr(0, cLocation); // extract data up to comma 
-	std::string labelY = line.substr(cLocation + 1, line.length()); // extract data after comma 
+    std::getline(iFile, line); // get first line (header files)
 
+    // Find the positions of commas to extract the header values
+    size_t cLocation1 = line.find(",");  // finding the first comma between time and x headers
+    size_t cLocation2 = line.find(",", cLocation1 + 1);  // finding the first comma between x and y headers
+
+    // Extract and assign the headers (time, x, y)
+    timeLabel = line.substr(0, cLocation1);  // extract time header
+    xLabel = line.substr(cLocation1 + 1, cLocation2 - cLocation1 - 1);  // extract x header
+    yLabel = line.substr(cLocation2 + 1); // extract y header
 
 	while (std::getline(iFile, line)) { // loop to get all other lines 
-		cLocation = line.find(","); // find comma 
-		xval.push_back(std::stod(line.substr(0, cLocation))); //***** NEED TO VALIDATE WRITE TO VECTOR***** // extract data up to comma, turn string into double using stod and store in vector 
-		yval.push_back(std::stod(line.substr(cLocation + 1, line.length())));// extract data after to comma, turn string into double using stod and store in vector
+		int cLocation1 = line.find(",");  // finding the first comma between time and x
+        int cLocation2 = line.find(",", cLocation1 + 1); // finding the second comma between x and y
+
+        double timeVal = std::stod(line.substr(0, cLocation1)); // extracting and converting time values
+        double xVal = std::stod(line.substr(cLocation1 + 1, cLocation2 - cLocation1 - 1)); // extracting and converting x values
+        double yVal = std::stod(line.substr(cLocation2 + 1)); // extracting and converting y values
+
+        // pushing extracted values to their vectors
+        time.push_back(timeVal);
+        xval.push_back(xVal);
+        yval.push_back(yVal);
 	};
 	iFile.close(); // close file
 
 	figure(2);
-	plot(xval, yval); // make plot 
-	title("extracted data"); // title plot 
-	xlabel(labelX); // us extracted header from csv to label x 
-	ylabel(labelY); // us extracted header from csv to label y
-	show(); //show plot 
+	subplot(2,2,1); // breaking up figure 2 into 4 plots
+	plot(xval, yval); // make x vs y plot 
+	title("X data vs Y Data (y = cos^2(x))"); // title plot 
+	xlabel(xLabel); // using extracted header from csv to label x 
+	ylabel(yLabel); // using extracted header from csv to label y
+	show(); // show plot 
+
+	subplot(2,2,2); // breaking up figure 2 into 4 plots
+	plot(time, xval); // make t vs x plot 
+	title("Time data vs X Data"); // title plot 
+	xlabel(timeLabel); // use extracted header from csv to label time 
+	ylabel(xLabel); // use extracted header from csv to label x
+	show(); // show plot
+
+	subplot(2,2,3); // breaking up figure 2 into 4 plots
+	plot(time, yval); // make t vs y plot 
+	title("Time data vs Y Data"); // title plot 
+	xlabel(timeLabel); // using extracted header from csv to label time 
+	ylabel(yLabel); // using extracted header from csv to label y
+	show(); // show plot
+
+	subplot(2,2,4); // breaking up figure 2 into 4 plots
+	plot(yval, xval); // make y vs x plot 
+	title("Y data vs X Data, For Fun"); // title plot 
+	xlabel(yLabel); // using extracted header from csv to label y
+	ylabel(xLabel); // using extracted header from csv to label x
+	show(); // show plot 
 }
