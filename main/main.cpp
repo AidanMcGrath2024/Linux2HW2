@@ -3,7 +3,6 @@
 #include "Question2.hpp"
 #include "Question3.hpp"
 #include "Question4.hpp"
-#include "Question5.h"
 
 int main(int argc, char *argv[])
 {
@@ -19,8 +18,5 @@ int main(int argc, char *argv[])
     cout << "*** Begin Question 4 ***" << endl;
     question4();
     cout << "*** End Question 4 ***" << endl;
-	cout << "*** Begin Question 5 ***" << endl;
-    Question5();
-    cout << "*** End Question 5 ***" << endl;
 	return 0;
 }
