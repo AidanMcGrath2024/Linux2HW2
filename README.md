@@ -1,11 +1,13 @@
 # This is a README file for our Homework 2 Submission
-Gnuplot, glew, glfw, and matplotplusplus are required to run this repo. glew, glfw, and matplotplusplus repositories are all kept in third_party folder.
+Gnuplot, glew, glfw, and matplotplusplus are required to run this repo. glew, glfw, and matplotplusplus libraries must be in the third_party folder.
 
-To execute, run these commands in your terminal when repo is loaded:
+To execute, run these commands in your terminal:
 "bash clean.sh",
 "bash build.sh"
 (may have to open a new terminal after build is complete),
 "./build/main"
+
+Outputs should populate in either the terminal window or in the results folder as a text file. be sure to hit enter three times for each graph to populate in the figure(2) window for question 4. 
 
 Participation:
 Aidan completed question 1.
