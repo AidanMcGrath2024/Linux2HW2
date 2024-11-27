@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/build",
+  "command": "/usr/bin/clang++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/include -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/matplotplusplus/install/include -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/glfw/install/include  -Wall -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -F/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks  -o CMakeFiles/main.dir/main/main.cpp.o -c /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/main/main.cpp",
+  "file": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/main/main.cpp",
+  "output": "CMakeFiles/main.dir/main/main.cpp.o"
+},
+{
+  "directory": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/build",
+  "command": "/usr/bin/clang++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/include -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/matplotplusplus/install/include -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/glfw/install/include  -Wall -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -F/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks  -o CMakeFiles/main.dir/src/Question1.cpp.o -c /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question1.cpp",
+  "file": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question1.cpp",
+  "output": "CMakeFiles/main.dir/src/Question1.cpp.o"
+},
+{
+  "directory": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/build",
+  "command": "/usr/bin/clang++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/include -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/matplotplusplus/install/include -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/glfw/install/include  -Wall -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -F/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks  -o CMakeFiles/main.dir/src/Question2.cpp.o -c /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question2.cpp",
+  "file": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question2.cpp",
+  "output": "CMakeFiles/main.dir/src/Question2.cpp.o"
+},
+{
+  "directory": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/build",
+  "command": "/usr/bin/clang++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/include -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/matplotplusplus/install/include -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/glfw/install/include  -Wall -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -F/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks  -o CMakeFiles/main.dir/src/Question3.cpp.o -c /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question3.cpp",
+  "file": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question3.cpp",
+  "output": "CMakeFiles/main.dir/src/Question3.cpp.o"
+},
+{
+  "directory": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/build",
+  "command": "/usr/bin/clang++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/include -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/matplotplusplus/install/include -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/glfw/install/include  -Wall -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -F/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks  -o CMakeFiles/main.dir/src/Question4.cpp.o -c /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question4.cpp",
+  "file": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question4.cpp",
+  "output": "CMakeFiles/main.dir/src/Question4.cpp.o"
+},
+{
+  "directory": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/build",
+  "command": "/usr/bin/clang++ -DMATPLOT_BUILD_HIGH_RESOLUTION_WORLD_MAP -DNOMINMAX -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/include -I/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src -isystem /opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/matplotplusplus/install/include -isystem /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/third_party/glfw/install/include  -Wall -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -F/Library/Developer/CommandLineTools/SDKs/MacOSX12.sdk/System/Library/Frameworks  -o CMakeFiles/main.dir/src/Question5.cpp.o -c /Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question5.cpp",
+  "file": "/Users/aidanmcgrath/Desktop/AERSP424/Linux-To_HW2/src/Question5.cpp",
+  "output": "CMakeFiles/main.dir/src/Question5.cpp.o"
+}
+]

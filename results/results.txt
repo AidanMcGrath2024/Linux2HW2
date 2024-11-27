@@ -1,0 +1,56 @@
+*** Begin Question 1 ***
+sensor created 0x15070e750 of type Radar
+sensor created 0x15070ce30 of type LiDAR
+sensor created 0x15070ce20 of type IMU
+Gathering data from Radar Sensor.
+Processing data from Radar Sensor.
+Adjusting controls based on sensor data.
+Gathering data from LiDAR Sensor.
+Processing data from LiDAR Sensor.
+Adjusting controls based on sensor data.
+Gathering data from IMU Sensor.
+Processing data from IMU Sensor.
+Adjusting controls based on sensor data.
+sensor deleted 0x15070e750 of type Radar
+sensor deleted 0x15070ce30 of type LiDAR
+sensor deleted 0x15070ce20 of type IMU
+*** End Question 1 ***
+*** Begin Question 2 ***
+Robot 0 is reaching and grabbing the tools.
+Robot 2 is reaching and grabbing the tools.
+Robot Robot 20 acquired tools and starts performing a task.
+ acquired tools and starts performing a task.
+Robot 2 finished the task and is returning the tools.
+Robot 0 finished the task and is returning the tools.
+Robot 4 is reaching and grabbing the tools.
+Robot 1 is reaching and grabbing the tools.
+Robot 1 acquired tools and starts performing a task.
+Robot 4 acquired tools and starts performing a task.
+Robot 4 finished the task and is returning the tools.
+Robot 3 is reaching and grabbing the tools.
+Robot 1 finished the task and is returning the tools.
+Robot 3 acquired tools and starts performing a task.
+Robot 3 finished the task and is returning the tools.
+*** End Question 2 ***
+*** Begin Question 3 ***
+ATC wakes up to communicate with Aircraft 1.
+ATC is talking to Aircraft 1.
+Aircraft 1 enters the traffic pattern.
+Aircraft 2 enters the traffic pattern.
+Aircraft 3 enters the traffic pattern.
+Aircraft 4 diverts to another airport as the traffic pattern is full.
+Aircraft 5 diverts to another airport as the traffic pattern is full.
+Aircraft 6 diverts to another airport as the traffic pattern is full.
+Aircraft 7 diverts to another airport as the traffic pattern is full.
+Aircraft 8 diverts to another airport as the traffic pattern is full.
+Aircraft 9 diverts to another airport as the traffic pattern is full.
+Aircraft 10 diverts to another airport as the traffic pattern is full.
+Aircraft 1 has landed and left the traffic pattern.
+ATC finished communication and falls asleep.
+Aircraft 2 has landed and left the traffic pattern.
+ATC finished communication and falls asleep.
+Aircraft 3 has landed and left the traffic pattern.
+ATC finished communication and falls asleep.
+*** End Question 3 ***
+*** Begin Question 4 ***
+/bin/sh: gnuplot: command not found
